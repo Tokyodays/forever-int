@@ -163,6 +163,9 @@
 						line-height: inherit;
 						margin: 0 0 0 2em;
 						padding: 0;
+						@include breakpoint(large) {
+							margin: 0 0 0 1em;
+						}
 					}
 				}
 
@@ -179,7 +182,5 @@
 			}
 		}
 
-		@include breakpoint(small) {
-			display: none;
-		}
+
 	}
