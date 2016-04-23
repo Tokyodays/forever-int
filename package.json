@@ -4,6 +4,7 @@
     "node": ">=0.12.0"
   },
   "dependencies": {
+    "emailjs": "^1.0.4",
     "express": "~3.3.4"
   },
   "devDependencies": {
