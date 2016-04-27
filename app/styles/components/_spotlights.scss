@@ -6,7 +6,8 @@
 
 /* Spotlights */
 
-	.spotlights {
+	.spotlights,
+	.spotlightsDeep {
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
@@ -128,4 +129,3 @@
 			}
 		}
 	}
-
